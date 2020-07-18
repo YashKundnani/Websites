@@ -1,0 +1,66 @@
+<html>
+
+<body bgcolor=rgb(255,255,224)>
+<p>
+  Registration Continued.....<br>
+  <form action="">
+    Name:
+     <input  type="text" name="fname" value=""><br>
+    Phone Number:
+      <input type="text" name="pno" value="0"<br>
+    
+    <button type="reset"> RESET !</button>
+  
+  </form>
+<br>
+Now Some casual Stuff:<br>
+<h4>1. A Table:</h4>
+
+<table style="width:100%">
+  <tr>
+    <th>Country</th>
+    <th>Capital</th>
+    
+  </tr>
+  <tr>
+    <td>Jamaica</td>
+    <td>Kingston</td>
+    
+  </tr>
+  <tr>
+    <td>Netherlands</td>
+    <td>Ansterdam</td>
+    
+  </tr>
+  <tr>
+     <td>Vietnam</td>
+     <td> Hanoi </td>
+  </tr>
+</table>
+
+
+<h4>2. A Magic Trick:</h4><br>
+
+<button onclick="document.getElementById('Box').src='box_open.jpg'">OPEN THE BOX !!!</button>
+
+<img id="Box" src="box_close.jpg" style="width:100px">
+
+<button onclick="document.getElementById('Box').src='box_close.jpg'">   CLOSE IT  </button>
+
+  <h4> 3. Date and Time Today:</h4><br>
+
+<script>
+    var d = new Date();
+    document.getElementById("date").innerHTML = d;
+  </script>
+ <button onclick="document.getElementById('date_display').innerHTML=d">Click Button to Get current date and time</button>
+<p id="date_display">
+  
+</p><br><br>
+<br>
+</p>  
+
+
+</body>
+
+</html>

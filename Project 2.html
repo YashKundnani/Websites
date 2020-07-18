@@ -1,0 +1,54 @@
+<html>
+<head>
+<title>Registration Page</title>
+</head>
+<body>
+
+<h1  style="color:rgb(255,0,0)">REGISTRATION</h1>
+<style>
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  padding: 12px 16px;
+  z-index: 1;
+}
+
+.dropdown:hover .dropdown-content {
+  display:block;
+}
+</style>
+
+<p> 
+* field are mandatory
+<br>
+ <form action="">
+  NAME: <input type="text" name="fname"><br>
+  CITY: <input type="text" name="lname"><br>
+  <input type="submit" value="Submit">
+<br>
+Contect Us:
+<div class="dropdown">
+  <span>&#8595</span>
+  <div class="dropdown-content">
+    <p>
+        Physical Address<br>
+        E-mail<br>  
+        Phone Number   
+    </p>
+  </div>
+</div>
+
+</form>
+
+</p>
+
+</body>
+</html>
